@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<!-- words sparkles & 通风孔  -->
+
+<head>
+
+	<meta charset="UTF-8">
+	<title>Gu</title>
+	<meta name="description" content="365days.2020">
+    <meta name="author" content="me">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>	
+    
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162511194-1"></script>
+	<script>
+ 	 window.dataLayer = window.dataLayer || [];
+ 	 function gtag(){dataLayer.push(arguments);}
+  	 gtag('js', new Date());
+
+ 	 gtag('config', 'UA-162511194-1');
+</script>
+
+
+	<style>
+	
+		header {
+			margin: 1em 0 0 0.5em;
+			font-family: avenir,helvetica,arial,sans-serif;
+			font-size: 3em;
+			text-align: center;
+		
+		}
+		
+		img {
+			max-width: 100%; 
+			
+		}
+		
+		.wrapper {
+   			 width: 95%;
+   			 margin: 3em auto;
+		}	
+
+		.masonry {
+ 		    margin: 1.5em 0;
+		    padding: 0;
+		    -moz-column-gap: 1.5em;
+		    -webkit-column-gap: 1.5em;
+		    column-gap: 1.5em;
+		    font-size: .85em;
+		}
+
+		.item {
+		    font-size: 1em;
+		    font-family: avenir,helvetica,arial,sans-serif, Microsoft YaHei;
+			color:#333;	
+			text-align: left;
+		    background-color: #fff;	
+		    display: inline-block;
+		    padding: 1em;
+		    margin: 0 0 1.5em;
+		    width: 100%;
+		    box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    -webkit-box-sizing: border-box;
+		    box-shadow: 2px 2px 4px 0 #ccc;
+		}
+
+		@media only screen and (min-width: 400px) {
+		    .masonry {
+		        -moz-column-count: 2;
+		        -webkit-column-count: 2;
+		        column-count: 2;
+			}
+		}
+
+		@media only screen and (min-width: 700px) {
+		    .masonry {
+		        -moz-column-count: 3;
+		        -webkit-column-count: 3;
+		        column-count: 3;
+			}
+		}
+
+		@media only screen and (min-width: 900px) {
+		    .masonry {
+		        -moz-column-count: 4;
+		        -webkit-column-count: 4;
+		        column-count: 4;
+			 }
+		}
+
+		@media only screen and (min-width: 1100px) {
+		    .masonry {
+		        -moz-column-count: 5;
+		        -webkit-column-count: 5;
+		        column-count: 5;
+			}
+		}
+
+		@media only screen and (min-width: 1280px) {
+		    .wrapper {
+		        width: 1260px;
+			}
+		}		
+
+	</style>
+
+	<script>
+
+	//Random color
+		$(function() {
+ 		    $(".jump-response").each(function() {
+   			     var hue = 'rgb(' + (Math.floor((256-199)*Math.random()) + 200) + ',' + (Math.floor((256-199)*Math.random()) + 200) + ',' + (Math.floor((256-199)*Math.random()) + 200) + ')';
+     	    $(this).css("background-color", hue);
+  			  });
+		});
+
+	//Masonry
+		$(function(){
+ 			 $('#container').masonry({
+ 			    itemSelector : '.item',
+			    columnWidth: 200,
+    		    isResizableL:true,
+			    gutterWidth:2
+			  });
+		});
+
+	</script>
+
+</head>
+
+
+<body>
+	<header>
+		
+		365.2020
+		
+	</header>
+
+	<div class ="wrapper" >
+
+	<div  class = "masonry">
+		
+		<div class="item jump-response">
+			<h1>5.1</h1>
+			<p>
+Waste no more time arguing what a good man should be. Be one. Marcus Aurelius
+			</p>
+		</div>
+		
+		<div class="item jump-response">
+			<h1>4.30</h1>
+			<p>
+他们曾经做过的, 他们还会再做, 但是你应当保持平静。 第一；不要让这些成为困扰。因为所有事物都含善恶两面。第二；让你的心思驻足事物本身，看到其内在。记住，你注定要做一个品性优质的人，自然要求你做为一个人必须如此。奥勒留
+			</p>
+		</div>
+		
+		<div class="item jump-response">
+			<h1>4.23</h1>
+			<p>
+一切中國的所謂經史子集，都是雜貨店，“集”是雜貨店，那是很明顯的；然而“子”，何嘗不是雜貨店？“史”與“經”又何嘗不是雜貨店？因為是雜貨店，所以可讀的好書很少。中國書中有系統有結構而可讀的書，至多不過半打！因此，我們單讀中國書就覺得不夠，我們至少要學一種外國文字，才可以收博覽群集、觸類旁通之效。胡適
+			</p>
+		</div>
+		
+		<div class="item jump-response">
+			<h1>4.21</h1>
+			<p>
+In pondering "Art", I am reminded of the words of a great man of our time who said all great and beautiful work has come of first gazing without shrinking into the darkness. I have been much acquainted with that darkness. Thank you for letting me lend my light to yours. Together we shall shrink the darkness until there is only light. The Professor and the Madman
+			</p>
+		</div>
+		
+		<div class="item jump-response">
+			<h1>4.20</h1>
+			<p>
+When I want to read a novel, I write one. Benjamin Disraeli
+			</p>
+		</div>
+		
+		<div class="item jump-response">
+			<h1>4.15</h1>
+			<p>
+明月幾時有？把酒問青天。不知天上宮闕，今夕是何年。我欲乘風歸去，又恐瓊樓玉宇，高處不勝寒。起舞弄清影，何似在人間。轉朱閣，低綺戶，照無眠。不應有恨，何事長向別時圓？人有悲歡離合，月有陰晴圓缺，此事古難全。但願人長久，千里共嬋娟。蘇軾
+			</p>
+		</div>
+		
+		<div class="item jump-response">
+			<h1>4.7</h1>
+			<p>
+There was the sound, too, of elven-harps and of sweet music; and as it echoed up towards them it seemed that the chill of the air was warmed, and they caught faintly the fragrance of woodland flowers blossoming in spring. The Hobbit 
+			</p>
+		</div>
+		
+		<div class="item jump-response">
+			<h1>4.6</h1>
+			<p>
+君子黃中通理，正位居體，美在其中，而暢於四支，發於事業，美之至也。 易經
+			</p>
+		</div>
+		
+		<div class="item jump-response">
+			<h1>4.5</h1>
+			<p>
+Truth is incontrovertible. Panic may resent it. Ignorance may deride it. Malice may distort it. But there it is. Winston Churchill
+			</p>
+		</div>
+		
+		<div class="item">
+			<h1>404</h1>
+			<p>
+
+			</p>
+		</div>
+		
+		<div class="item jump-response">
+			<h1>4.3</h1>
+			<p>
+The mind of a man is more intuitive than logical, and comprehends more than it can coordinate. Luc de Clapiers
+			</p>
+		</div>
+		
+		<div class="item jump-response">
+			<h1>4.2</h1>
+			<p>
+持身涉世，不可隨境而遷。須是大火流金而清風穆然，嚴霜殺物而和氣藹然，陰霾翳空而慧日朗然，洪濤倒海而坻柱屹然，方是宇宙內的真人品。菜根譚
+			</p>
+		</div>
+		
+		<div class="item jump-response">
+			<h1>4.1</h1>
+			<p>
+What kind of photographer am I? I’m a measurer of spaces: I arrive in a place and wander around it like a dowser in search of a point of view. I walk up and down. The important thing is to find the right distance between me, the eye and the space. The fundamental act is looking, the photo is the technical memory fixed by this gaze. But it takes time, the great picture is contemplative. Gabriele Basilico
+			</p>
+		</div>
+			
+		<div class="item jump-response">
+			<h1>3.28</h1>
+			<p>
+Do not aspire to meet a wonderful person. Aspire to become the wonderful person that you expect others to be. Sadhguru
+			</p>
+		</div>
+		
+		<div class="item jump-response">
+			<h1>3.24</h1>
+			<p>
+Do remember they can't cancel the spring. David Hockney
+			</p>
+		</div>
+		
+		<div class="item jump-response">
+			<h1>3.23</h1>
+			<p>
+“I wish it need not have happened in my time," said Frodo.
+"So do I," said Gandalf, "and so do all who live to see such times. But that is not for them to decide. All we have to decide is what to do with the time that is given us.” J.R.R. Tolkien
+			</p>
+		</div>
+		
+		<div class="item jump-response">
+			<h1>3.21</h1>
+			<p>
+If you are looking for solace, you believe. If you are looking for a solution, you seek. Sadhguru
+			</p>
+		</div>
+		
+		<div class="item jump-response">
+			<h1>3.6</h1>
+			<p>
+要人心之自由，胸襟開放。我們要想辦法拿全世界人類曾經走過的路都要算是我走過的路之一，要有一個遠見超越你未見。許倬雲
+			</p>
+		</div>
+		
+		<div class="item jump-response">
+			<h1>2.26</h1>
+			<p>
+愚而好自用，賤而好自專。生乎今之世，反古之道。如此者烖及其身者也。中庸
+			</p>
+		</div>
+		
+		<div class="item jump-response">
+			<h1>2.18</h1>
+			<p>
+善啟迪人心者，當因其所明而漸通之，毋強開其所閉；善移風化者，當因其所易而漸及之，毋輕矯其所難。菜根譚
+			</p>
+		</div>
+		
+		<div class="item">
+			<h1>2.14</h1>
+			<img src="img/20200214.png">
+		</div>
+		
+		<div class="item jump-response">
+			<h1>2.1</h1>
+			<p>
+ask yourself only what are the facts and what is the truth that the facts bear out. Never let yourself be diverted either by what you wish to believe or by what you think would have beneficent social effects if it were believed, but look only and solely at what are the facts. Bertrand Russell
+			</p>
+		</div>
+		
+		<div class="item jump-response">
+			<h1>1.31</h1>
+			<p>
+The rocket bombs which fell daily on London were probably fired by the Government of Oceania itself, just to keep people frightened. 1984
+			</p>
+		</div>
+		
+		<div class="item jump-response">
+			<h1>1.15</h1>
+			<p>
+天地景物，如山間之空翠，水上之漣漪，潭中之雲影，草際之煙光，月下之花容，風中之柳態。若有若無，半真半幻，最足以悅人心目而豁人性靈。真天地間一妙境也。
+洪應明
+			</p>
+		</div>
+		
+		<div class="item jump-response">
+			<h1>1.1</h1>
+			<p>
+Describe life-images to one another. What was good deserves to exist. Take your time—and be creative: transform your inexplicable sighs into mighty songs. Peter Handke
+			</p>
+		</div>
+		
+	</div>
+
+	</div>
+
+
+</body>
+</html>
